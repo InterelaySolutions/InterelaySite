@@ -98,7 +98,7 @@
                 <a href="mailto:support@interelay.com" style="color: grey; text-decoration:underline">support@interelay.com</a>
                 </div>
                 </div>
-            <div style="clear:both; text-align:center; font-size:x-small;">All Code and Images are Copyright Interelay Solutions - 2018</div>
+            <div style="clear:both; text-align:center; font-size:x-small;">All Code and Images are Copyright Interelay Solutions - <?php echo date("Y") ?></div>
         </div> 
         <script src="js/stickyfill.min.js"></script>
         <script>
