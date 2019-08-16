@@ -2,11 +2,11 @@
         <title>Interelay Solutions - Computer Repairs, Managed IT Services, Network Administration and Anti-Virus Services in Kent</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
-        <script src="js/jquery.js"></script>
+        <script src="/site/js/jquery.js"></script>
         <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="/site/css/main.css">
         <script>
             // handle links with @href started with '#' only
             $(document).on('click', 'a[href^="#"]', function(e) {
@@ -63,7 +63,7 @@
             <div class="container">
                 <h2>We also offer...</h2>
                 <div class="slide2_right"><h2>Data Recovery</h2><p>Our extensive experience with data recovery tools gives our technicians a unique insight how to effectively recover data.  With cloud storage becoming increasingly popular, we provide consultancy services to ensure you find the right cloud service to meet your companies needs.</p></div> <div class="slide2_left" style=""><img src="/site/images/data_recovery.png" style="width:100%; max-width:150px; height:auto;"></div>
-                <div class="slide2_right"><h2>Customised PCs, built by us, for you</h2><p>We provide a hardware-requirements consultancy service, where we will assess your needs and build a computer specifically tailored to your needs.  Our PCs come with a one-year warranty and free telephone customer support, helping you every step of the way, making sure you're happy with the hardware.</p></div><div class="slide2_left"><img src=/"site/images/custompc.png" style="width:100%; max-width:150px; height:auto;"></div>
+                <div class="slide2_right"><h2>Customised PCs, built by us, for you</h2><p>We provide a hardware-requirements consultancy service, where we will assess your needs and build a computer specifically tailored to your needs.  Our PCs come with a one-year warranty and free telephone customer support, helping you every step of the way, making sure you're happy with the hardware.</p></div><div class="slide2_left"><img src="/site/images/custompc.png" style="width:100%; max-width:150px; height:auto;"></div>
                 <div class="slide2_right"><h2>Complete website app solution</h2><p>Need a website that has specific requirements? Need a custom performance driven site that is in-line with your companies aims? Then look no further!  We provide a complete website design and creation experience, we will integrate any platform or app into your website and provide a website tailored to your specific needs.  We will provide a design brief before any work is carried out and work with you to create the exact website you need.</p></div><div class="slide2_left"><img src="/site/images/Circle-icons-browser.png" style="width:100%; max-width:150px; height:auto;"></div>
             </div>
             
