@@ -1,47 +1,107 @@
-/* Main Tag CSS */
-div {border 0px solid blue; display: block; padding: 6px; font-family: sans-serif; }
-h1 {padding: 0px; color:azure; font-family:Arial, sans-serif; font-weight: bold; text-align: center; font-size:40px; text-shadow: 2px 2px 20px rgba(90, 90, 90, 1);}
-h3 {color: azure; font-family: Arial, sans-serif; text-align: center; font-size: medium;}
-h4 {font-size: 16px; margin:0px;}
-h5 {text-align: center; font-size: x-large; padding: 0px; margin: 10px;}
-a {color: grey;}
-a:hover {color: orange;}
-body {background-color: cadetblue; margin: 0px; padding: 0px; color: aliceblue;}
-form {display: table; margin-left: auto; margin-right: auto;}
-form p {display: table-row; height: 30px;}
-form label {display: table-cell;}
-form input {display: table-cell;}
-
-/* Class CSS */
-.slide {height:650px; clear:both; padding:0px; background-color: black; border: 0px solid black;  text-shadow: 1px 1px 3px dimgrey;  margin-top: 0px; margin-bottom: 0px;  }
-.slide_inverted {height:650px; clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; background-color: black; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px; }
-.equal-div33 {width: 100%; display: inline-block; vertical-align: top; max-width: 32%; height: auto; margin-right: 10px; padding: 20px;}
-.slide2_left {display: inline-block; width:10%; margin: 0px; margin-bottom: 10px; vertical-align: top; text-align: right; padding-right: 10px;}
-.slide2_left > img {padding-top: 20px;}
-.slide2_right {display: inline-block; width:70%; margin: 0px; margin-left: 25px; margin-bottom: 10px; vertical-align: top;}
-.slide3 {display: inline-block; width:85%; margin: 0px; margin-left: 25px; margin-bottom: 15px; vertical-align: top; text-align: left;}
-.container {width:95%; margin: 0px auto; position: relative; top: 15px; padding: 0px; }
-.general_slide { clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px; background-image: linear-gradient(to bottom, transparent 0%, cadetblue 100%),url('slide3_v1.jpg'); background-repeat:repeat-y; background-size:cover; height:600px; text-align: center; }
-.island {background-image: url(footerstripe.gif); border: 1px solid grey; border-radius:5px; width:50%;display:inline-block; margin-top:20px; box-shadow: 1px 1px 4px black; padding: 20px;}
-.island > h2{text-align: left;}
-.island > p{text-align: left;}
-.table {display: table;}
-.table-row {display: table-row;}
-.table-cell {display: table-cell;  border:1px solid grey; vertical-align: middle; padding: 5px; font-size: small; border-radius: 3px; background-color: azure}
-.table-cell-nob {display: table-cell; vertical-align: middle; padding: 5px; font-size: small; font-weight: bold; text-align: left;}
-.button {background-color: cadetblue; padding: 9px; color: white; text-decoration: none; font-size: 22px; margin-right: 27px; position:relative; top:9px; text-shadow: 0 0 0; border-radius: 5px; transition-duration: 0.4s}
-.button:hover {background-color:green; color: white;}
-
-/* ID CSS */
-#navbar {background-color: rgba(110, 110, 110, 0.8); position:sticky; position: -webkit-sticky; top:0; bottom: auto;z-index: 1;}
-#navbar > a {color: white;}
-#navbar > a:hover {color: orange;}
-#loginpane > a {color: white;}
-#loginpane > a:hover {color: orange;}
-#three_way_container {margin: 0px auto; text-align: center; vertical-align: top;} 
-#footer {height:275px; clear:both; padding:0px; background-color: lightgrey; background-image: url('footerstripe.gif'); color: grey; text-shadow: 1px 1px 3px lightgrey; border: 1px solid black;}
-#footer_left {float: left; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: left;}
-#footer_right {float:right; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: right;}
-#required {color: red; font-weight: bold;}
-#success {color: green; font-weight: bold;}
-#textbox {background-color:white; padding:10px; border:1px solid grey; border-radius:5px;text-align:left;}
+/* Main Tag CSS */
+
+div {border 0px solid blue; display: block; padding: 6px; font-family: sans-serif; }
+
+h1 {padding: 0px; color:azure; font-family:Arial, sans-serif; font-weight: bold; text-align: left; font-size:40px}
+
+h3 {color:grey; font-family: Arial, sans-serif; text-align: center; font-size: medium; text-shadow: none; font-family: 'Roboto'}
+
+h4 {font-size: 16px; margin:0px;}
+
+h5 {text-align: center; font-size: x-large; padding: 0px; margin: 10px;}
+
+a {text-decoration: none; color: white}
+
+body {background-color: cadetblue; margin: 0px; padding: 0px; color:gray; overflow-x: hidden;}
+
+form {display: table; margin-left: auto; margin-right: auto;}
+
+form p {display: table-row; height: 30px;}
+
+form label {display: table-cell;}
+
+form input {display: table-cell;}
+
+p {
+    font-family: 'Roboto';
+}
+
+
+
+/* Class CSS */
+
+.slide {height:auto; clear:both; padding:0px; background-color: black; border: 0px solid black; margin-top: 0px; margin-bottom: 0px;  font-family: 'Roboto' }
+
+.slide_inverted {height:650px; clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; background-color: black; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px;  font-family: 'Roboto'}
+
+.equal-div33 {width: 100%; display: inline-block; vertical-align: top; max-width: 32%; height: 300px; margin: 10px; padding: 20px; border-radius:30px; background-color: aliceblue; min-width: 600px;}
+
+.slide2_left {display: inline-block; width:10%; margin: 0px; margin-bottom: 10px; vertical-align: top; text-align: right; padding-right: 10px;}
+
+.slide2_left > img {padding-top: 20px;}
+
+.slide2_right {display: inline-block; width:70%; margin: 0px; margin-left: 25px; margin-bottom: 10px; vertical-align: top;}
+
+.slide3 {display: inline-block; width:85%; margin: 0px; margin-left: 25px; margin-bottom: 15px; vertical-align: top; text-align: left; color: white;  font-family: 'Roboto'}
+
+.container {width:95%; margin: 0px auto; position: relative; top: 15px; padding: 0px; }
+
+.general_slide { clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px; background-image: linear-gradient(to bottom, transparent 0%, cadetblue 100%),url('slide3_v1.jpg'); background-repeat:repeat-y; background-size:cover; height:600px; text-align: center;  font-family: 'Roboto' }
+
+.island {background-image: url(footerstripe.gif); border: 1px solid grey; border-radius:5px; width:50%;display:inline-block; margin-top:20px; box-shadow: 1px 1px 4px black; padding: 20px;}
+
+.island > h2{text-align: left;}
+
+.island > p{text-align: left;}
+
+.table {display: table;}
+
+.table-row {display: table-row;}
+
+.table-cell {display: table-cell;  border:1px solid grey; vertical-align: middle; padding: 5px; font-size: small; border-radius: 3px; background-color: azure}
+
+.table-cell-nob {display: table-cell; vertical-align: middle; padding: 5px; font-size: small; font-weight: bold; text-align: left;}
+
+.button {background-color: cadetblue; padding: 9px; color: white; text-decoration: none; font-size: 22px; margin-right: 27px; position:relative; top:9px; text-shadow: 0 0 0; border-radius: 5px; transition-duration: 0.4s}
+
+.button:hover {background-color:green; color: white;}
+
+
+
+/* ID CSS */
+
+#navbar {background-color:rgba(250, 250, 250, 0.3); position:sticky; position: -webkit-sticky; top:0; bottom: auto;z-index: 1; float: left; width: 100%; padding-left: 0px; padding-top:8px;}
+
+#navbar > a {text-decoration: none; padding: 30px; color: white}
+
+#logobar {background-color:rgb(15, 16, 19); margin-bottom: -10px; height: 80px;}
+
+#navbar > a:hover {background-color: chocolate;}
+
+#loginpane > a {color: white; padding: 7px;  border-radius: 5px; margin-right: 5px; margin-top:7px; display: inline-block; background-color: tomato; text-decoration: none; font-family: 'Roboto'; opacity: 1;}
+
+#loginpane > a:hover {background-color: chocolate;}
+
+#three_way_container {margin: 0px auto; text-align: center; vertical-align: top; padding-top: 30px;} 
+
+#footer {height:275px; clear:both; padding:0px; background-color: lightgrey; background-image: url('footerstripe.gif'); color: grey; text-shadow: 1px 1px 3px lightgrey; border: 1px solid black;  font-family: 'Roboto'}
+
+#footer_left {float: left; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: left;  font-family: 'Roboto'}
+
+#footer_right {float:right; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: right;  font-family: 'Roboto'}
+
+#required {color: red; font-weight: bold;}
+
+#success {color: green; font-weight: bold;}
+
+#textbox {background-color:white; padding:10px; border:1px solid grey; border-radius:5px;text-align:left;}
+
+:root {
+    --mdc-theme-primary: #343f7c;
+    --mdc-theme-secondary: #242353;
+  }
+
+.mdc-button {
+    height:30px;
+}
+
