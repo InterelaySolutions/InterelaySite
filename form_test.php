@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
-        <link rel="stylesheet" type="text/css" href="/site/css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href="css/material-components-web.min.css" rel="stylesheet">
         <script src="js/material-components-web.min.js"></script>
         <style>
@@ -58,9 +58,9 @@
             }
         </style>
     </head>
-    <body style="background-image: url('/site/images/serverroom-slide1-v2.jpg');">
+    <body style="background-image: url('images/serverroom-slide1-v2.jpg');">
     <div class="logolinkbox" style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1"><a style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1" href="./" >&nbsp;</a></div>
-    <div id="logobar" class="logobar" style="margin-bottom:0px;"><img src="/site/images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
+    <div id="logobar" class="logobar" style="margin-bottom:0px;"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
         <div id="navbar" class="navbar" style="float:none;">
             <button class="mdc-button mdc-button--raised" style="margin-left:10px;"><a href="#top">Return to Top</a></button> <button class="mdc-button mdc-button--raised"><a href="#aboutus">About Us</a></button> <button class="mdc-button mdc-button--raised"><a href="#contactus">Contact Us</a></button>   <div id="loginpane" style="float:right;"> <!--<a href="login.php">Login and book an appointment</a> | ---><button class="mdc-button mdc-button--raised" style="margin-right:10px;top:-7px;"><a href="/osTicket/">Support Helpdesk</a></button> 
 			

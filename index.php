@@ -46,7 +46,7 @@
     </head>
     <body style="background-color:black;">
     <div class="logolinkbox" style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1"><a style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1" href="./" >&nbsp;</a></div>
-    <div id="logobar" class="logobar"><img src="/site/images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
+    <div id="logobar" class="logobar"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
         <div id="navbar" class="navbar">
             <nav>
                 <button class="mdc-button mdc-button--raised" style="margin-left:10px;"><a href="#top">Return to Top</a></button> <button class="mdc-button mdc-button--raised"><a href="#aboutus">About Us</a></button> <button class="mdc-button mdc-button--raised"><a href="#contactus">Contact Us</a></button>   <div id="loginpane" style="float:right; margin-top:-7;"> <!--<a href="login.php">Login and book an appointment</a> | ---><button class="mdc-button mdc-button--raised" style="margin-right:10px;"><a href="/osTicket/">Support Helpdesk</a></button>  
@@ -54,12 +54,12 @@
         </div>
     </div>
         <!-- Slide #1 -- Three Divs aligned into three columns -->
-        <div class="slide" style="background-image: url('/site/images/serverroom-slide1-v2.jpg'); background-repeat:no-repeat; background-size:cover; position:relative; top:-50px; padding-bottom:50px;">
+        <div class="slide" style="background-image: url('images/serverroom-slide1-v2.jpg'); background-repeat:no-repeat; background-size:cover; position:relative; top:-50px; padding-bottom:50px;">
             <a class="smoothScroll" id="top"></a>
 <br><br>
             <div id="three_way_container">
                 <section>
-                    <div class="equal-div33"><img src="/site/images/softdev.png" style="width:100%;max-width:150px; height:auto;">
+                    <div class="equal-div33"><img src="images/softdev.png" style="width:100%;max-width:150px; height:auto;">
                     <header>
                         <h3>Bespoke software development</h3>
                     </header>
@@ -67,26 +67,26 @@
                         <p>We have a proven track record to develop custom software solutions for your company.  We perform a design brief for you which outlines the features of your solution and how to integrate it into your regular workflows.  We can create a full-stack custom solution for you, using proven technologies (PHP, Python, CSS, SQL, Javascript/JQuery)</p>
                     </article>
                     </div>
-                    <div class="equal-div33"><img src="/site/images/website-design.png" style="width:100%; max-width:150px; height:auto;">
+                    <div class="equal-div33"><img src="images/website-design.png" style="width:100%; max-width:150px; height:auto;">
                     <header><h3>IT Services Consultancy</h3></header>
                     <article>
                         <p>Not sure how you want to get from A to B?  We can help provide consulations which will provide an informed pathway to get you to your goals.  IT project management can be tricky and overly costly, let us put you on the right track to avoid redevelopment or recreation at a later stage.</p>
                     </article>
                 </div>
-                <div class="equal-div33"><img src="/site/images/Circle-icons-computer.png" style="width:100%;max-width:150px; height:auto;">
+                <div class="equal-div33"><img src="images/Circle-icons-computer.png" style="width:100%;max-width:150px; height:auto;">
                 <header><h3>Hardware and Software Challenges</h3></header>
                 <article>
                     <p>Our IT support technicians has over ten years of experience in handling software and hardware faults.  Performing ad-hoc repairs and ensure a resolution before leaving the premises.  We provide a call-out service for home users and a contracted service for regular maintenence of business infrastructure (Hardware and Software based).  Contact us now too see what managed IT solutions we can provide for you, or if you're a customer, please call now and book an appointment!</p>
                 </article>
             </div>
-            <div class="equal-div33"><img src="/site/images/network.png" style="width:100%;max-width:150px; height:auto;">
+            <div class="equal-div33"><img src="images/network.png" style="width:100%;max-width:150px; height:auto;">
             <h3>Providing Networking and Administrative services</h3><p>Our technicians have considerable experience in providing Network Administrative assistance, ranging from Active Directory to Windows Server to Linux.  We can provide IT management solutions for your business, removing the need to manage your network infrastructure within the company, saving you time, money and resources.</p>
         </div>
                 </section>
             </div>
         </div>
         <!-- Slide #2 -- Side by Side Divs arranged in a stacked format -->
-        <div class="slide_inverted" style="background-image: url('/site/images/slide2_v2.jpg'); background-repeat:no-repeat; background-size:cover;top:-29px;position: relative; padding-top:20px; padding-bottom:40px">
+        <div class="slide_inverted" style="background-image: url('images/slide2_v2.jpg'); background-repeat:no-repeat; background-size:cover;top:-29px;position: relative; padding-top:20px; padding-bottom:40px">
             <div class="container">
                 <section>
                     <article>
@@ -96,28 +96,28 @@
                             <p>Our extensive experience with data recovery tools gives our technicians a unique insight how to effectively recover data.  With cloud storage becoming increasingly popular, we provide consultancy services to ensure you find the right cloud service to meet your companies needs.</p>
                         </div> 
                     </article>
-                    <div class="slide2_left" style=""><img src="/site/images/data_recovery.png" style="width:100%; max-width:150px; height:auto;"></div>
+                    <div class="slide2_left" style=""><img src="images/data_recovery.png" style="width:100%; max-width:150px; height:auto;"></div>
                     <div class="slide2_right">
                         <article>
                             <h2>Customised PCs, built by us, for you</h2>
                             <p>We provide a hardware-requirements consultancy service, where we will assess your needs and build a computer specifically tailored to your needs.  Our PCs come with a one-year warranty and free telephone customer support, helping you every step of the way, making sure you're happy with the hardware.</p>
                         </article>
                     </div>
-                    <div class="slide2_left"><img src="/site/images/custompc.png" style="width:100%; max-width:150px; height:auto;"></div>
+                    <div class="slide2_left"><img src="images/custompc.png" style="width:100%; max-width:150px; height:auto;"></div>
                     <div class="slide2_right">
                         <article>
                             <h2>Complete website app solution</h2>
                             <p>Need a website that has specific requirements? Need a custom performance driven site that is in-line with your companies aims? Then look no further!  We provide a complete website design and creation experience, we will integrate any platform or app into your website and provide a website tailored to your specific needs.  We will provide a design brief before any work is carried out and work with you to create the exact website you need.</p>
                         </article>
                     </div>
-                    <div class="slide2_left"><img src="/site/images/Circle-icons-browser.png" style="width:100%; max-width:150px; height:auto;"></div>
+                    <div class="slide2_left"><img src="images/Circle-icons-browser.png" style="width:100%; max-width:150px; height:auto;"></div>
                 </section>
             </div>
         </div>
         <!-- Dummy Div to create a precise anchor for the About Us Link -->
         <div id="aboutus" style="margin:0px; padding:0px; font-size:0px; position:relative; top:-20px;"></div>
         <!-- Slide #3 -- Information Dump Slide -->
-        <div class="slide" style="background-image: url('/site/images/slide3_v1.jpg'); background-repeat:no-repeat; background-size:cover; margin:0px; position: relative;top: -47px;padding-top: 10px;margin-top: 20px; padding-bottom:100px; text-shadow: 1px 1px 3px gray;">
+        <div class="slide" style="background-image: url('images/slide3_v1.jpg'); background-repeat:no-repeat; background-size:cover; margin:0px; position: relative;top: -47px;padding-top: 10px;margin-top: 20px; padding-bottom:100px; text-shadow: 1px 1px 3px gray;">
             <div class="container">
                 <section>
                     <h2 style="text-align:left;color:white">We have been providing services to community for over 10 years</h2>
