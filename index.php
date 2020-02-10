@@ -47,13 +47,12 @@
     <body style="background-color:black;">
     <div class="logolinkbox" style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1"><a style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1" href="./" >&nbsp;</a></div>
     <div id="logobar" class="logobar"><img src="/site/images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
-    <nav>
         <div id="navbar" class="navbar">
-            <button class="mdc-button mdc-button--raised" style="margin-left:10px;"><a href="#top">Return to Top</a></button> <button class="mdc-button mdc-button--raised"><a href="#aboutus">About Us</a></button> <button class="mdc-button mdc-button--raised"><a href="#contactus">Contact Us</a></button>   <div id="loginpane" style="float:right; margin-top:-7;"> <!--<a href="login.php">Login and book an appointment</a> | ---><button class="mdc-button mdc-button--raised" style="margin-right:10px;"><a href="/osTicket/">Support Helpdesk</a></button> 
-			
-			
-            </div></div>
-    </nav>
+            <nav>
+                <button class="mdc-button mdc-button--raised" style="margin-left:10px;"><a href="#top">Return to Top</a></button> <button class="mdc-button mdc-button--raised"><a href="#aboutus">About Us</a></button> <button class="mdc-button mdc-button--raised"><a href="#contactus">Contact Us</a></button>   <div id="loginpane" style="float:right; margin-top:-7;"> <!--<a href="login.php">Login and book an appointment</a> | ---><button class="mdc-button mdc-button--raised" style="margin-right:10px;"><a href="/osTicket/">Support Helpdesk</a></button>  
+            <nav>    
+        </div>
+    </div>
         <!-- Slide #1 -- Three Divs aligned into three columns -->
         <div class="slide" style="background-image: url('/site/images/serverroom-slide1-v2.jpg'); background-repeat:no-repeat; background-size:cover; position:relative; top:-50px; padding-bottom:50px;">
             <a class="smoothScroll" id="top"></a>
