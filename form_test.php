@@ -13,8 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
         <link rel="stylesheet" type="text/css" href="/site/css/main.css">
-        <link href="/site/css/material-components-web.min.css" rel="stylesheet">
-        <script src="/site/js/material-components-web.min.js"></script>
+        <link href="css/material-components-web.min.css" rel="stylesheet">
+        <script src="js/material-components-web.min.js"></script>
         <style>
             label {
                 font-family: "Arial";
