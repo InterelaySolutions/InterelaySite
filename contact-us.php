@@ -105,14 +105,14 @@
 			</div></div>
         <?php
         $success = "";
+            //Import the PHPMailer class into the global namespace
+            use PHPMailer\PHPMailer\PHPMailer;
+            use PHPMailer\PHPMailer\SMTP;
+
         if (isset($_POST["name"])) {
             foreach ($_POST as $key => $value) {
                 $_POST[$key] = htmlentities($value);
             }      
-            
-            //Import the PHPMailer class into the global namespace
-            use PHPMailer\PHPMailer\PHPMailer;
-            use PHPMailer\PHPMailer\SMTP;
             require_once "vendor/autoload.php";
             include( __DIR__.'/../credentials/creds.php');
 
