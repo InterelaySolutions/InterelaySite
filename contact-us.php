@@ -103,85 +103,72 @@
 			
 			
 			</div></div>
-        <?php 
-
-//Import the PHPMailer class into the global namespace
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-require_once "vendor/autoload.php";
-include( __DIR__.'/../credentials/creds.php');
-
-//PHPMailer Object
-$mail = new PHPMailer;
-
-//From email address and name
-$mail->setFrom("support@interelay.com","Web Query");
-$mail->Subject = "Testing";
-
-//To address and name
-$mail->addAddress("support@interelay.com"); //Recipient name is optional
-
-//Address to which recipient will reply
-$mail->addReplyTo("noreply@interelay.com", "Reply");
-
-//Send HTML or Plain Text email
-$mail->isHTML(true);
-
-$mail->Subject = "Subject Text";
-$mail->Body = "Mail body in HTML";
-$mail->AltBody = "This is the plain text version of the email content";
-
-
-$mail->SMTPDebug = 0;
-$mail->IsSMTP(); 
-$mail->Username = $theUser;  
-$mail->Password = $thePass;                                   // Set mailer to use SMTP
-$mail->Host = 'mail.interelay.com';                 // Specify main and backup server
-$mail->Port = 587;                                    // Set the SMTP port
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-
-
-// SMTP password
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
-
-$mail->SMTPOptions = array(
-    'ssl' => array(
-        'verify_peer' => false,
-        'verify_peer_name' => false,
-        'allow_self_signed' => true
-    )
-);
-
-if(!$mail->send()) 
-{
-    echo "Mailer Error: " . $mail->ErrorInfo;
-} 
-else 
-{
-    echo "Message has been sent successfully";
-}
-
-
+        <?php
         $success = "";
         if (isset($_POST["name"])) {
             foreach ($_POST as $key => $value) {
                 $_POST[$key] = htmlentities($value);
-            }            
-            // the message
+            }      
+            
+            //Import the PHPMailer class into the global namespace
+            use PHPMailer\PHPMailer\PHPMailer;
+            use PHPMailer\PHPMailer\SMTP;
+            require_once "vendor/autoload.php";
+            include( __DIR__.'/../credentials/creds.php');
+
+            //PHPMailer Object
+            $mail = new PHPMailer;
+
+            //From email address and name
+            $mail->setFrom("support@interelay.com","Web Query");
+
+            //To address and name
+            $mail->addAddress("support@interelay.com"); //Recipient name is optional
+
+            //Address to which recipient will reply
+            $mail->addReplyTo($_POST["email"], "Reply");
+
+            //Send HTML or Plain Text email
+            $mail->isHTML(true);
+
             $msg = "Name: ".$_POST["name"]."\n
-            Phone Number: ".$_POST["number"]."\n
-            Email: ".$_POST["email"]."\n
-            Message: ".$_POST["message"];
-            $headers = 'From: support@interelay.com' . "\r\n" .
-            'Reply-To: '.$_POST["email"]."\r\n". 'X-Mailer: PHP/';
-            // send email
-            if (mail("support@interelay.com","Website Query",$msg, $headers)) {
-                $success = "<p style='color:green;font-weight:bold;float: right;position: relative;top: 30px;margin-left: -300px;'>Message Sent!</p>";
-            } else {
+                        Phone Number: ".$_POST["number"]."\n
+                        Email: ".$_POST["email"]."\n
+                        Message: ".$_POST["message"];
+
+            $mail->Subject = "A Customer has sent a message!";
+            $mail->Body = $msg;
+            $mail->AltBody = $msg;
+
+
+            $mail->SMTPDebug = 0;
+            $mail->IsSMTP(); 
+            $mail->Username = $theUser;  
+            $mail->Password = $thePass;                                   // Set mailer to use SMTP
+            $mail->Host = 'mail.interelay.com';                 // Specify main and backup server
+            $mail->Port = 587;                                    // Set the SMTP port
+            $mail->SMTPAuth = true;                               // Enable SMTP authentication
+
+
+            // SMTP password
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
+
+            $mail->SMTPOptions = array(
+                'ssl' => array(
+                    'verify_peer' => false,
+                    'verify_peer_name' => false,
+                    'allow_self_signed' => true
+                )
+            );
+
+            if(!$mail->send()) 
+            {
                 $success = "<p style='color:darkred;font-weight:bold;float: right;position: relative;top: 30px;margin-left: -300px;'>Error: Please contact the admininstrator</p>";
-            };
-
-
+            } 
+            else 
+            {
+                $success = "<p style='color:green;font-weight:bold;float: right;position: relative;top: 30px;margin-left: -300px;'>Message Sent!</p>";
+            }
         } 
         ?>
         <div>
