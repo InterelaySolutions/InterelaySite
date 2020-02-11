@@ -140,7 +140,7 @@ else
 }
 
 $mail->IsSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'mail.interelay.com';                 // Specify main and backup server
+$mail->Host = 'localhost';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'support@interelay.com';                // SMTP username
