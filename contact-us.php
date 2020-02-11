@@ -141,7 +141,7 @@ $mime->setHTMLBody($html);
 // if using a third party mail service, be sure to use their hostname
 $host = "mail.interelay.com";
 $username = "support@interelay.com";
-$password = "Benny3010##";
+$password = "Trucy3010##";
 
 $headers = array ('From' => $from,
  'To' => $to,
