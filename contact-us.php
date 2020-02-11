@@ -148,7 +148,7 @@ $mail->Host = 'localhost';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'support@interelay.com';                // SMTP username
-$mail->Password = 'Trucy3010##';                  // SMTP password
+$mail->Password = 'Trucy3010###';                  // SMTP password
 $mail->SMTPSecure = 'tls';   
 
 $mail->SMTPOptions = array(
