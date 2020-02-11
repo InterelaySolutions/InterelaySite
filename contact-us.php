@@ -109,7 +109,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 require_once "vendor/autoload.php";
-require_once "/../credentials/creds.php";
+include("../credentials/creds.php");
 
 //PHPMailer Object
 $mail = new PHPMailer;
