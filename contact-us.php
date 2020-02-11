@@ -124,10 +124,10 @@ $mail->addAddress("support@interelay.com"); //Recipient name is optional
 $mail->addReplyTo("noreply@interelay.com", "Reply");
 
 //Send HTML or Plain Text email
-$mail->isHTML(true);
+$mail->isHTML(false);
 
 $mail->Subject = "Subject Text";
-$mail->MsgBody = "<i>Mail body in HTML</i>";
+$mail->Body = "Mail body in HTML";
 $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send()) 
