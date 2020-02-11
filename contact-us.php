@@ -132,10 +132,12 @@ $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send()) 
 {
+    echo $mail->Debugouput;
     echo "Mailer Error: " . $mail->ErrorInfo;
 } 
 else 
 {
+    echo $mail->Debugouput;
     echo "Message has been sent successfully";
 }
 
