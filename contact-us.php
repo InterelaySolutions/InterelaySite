@@ -140,7 +140,7 @@ $mime->setHTMLBody($html);
 // specify the SMTP server credentials to be used for delivery
 // if using a third party mail service, be sure to use their hostname
 $host = "mail.interelay.com";
-$username = "support@interelay.com";
+$username = "support";
 $password = "Trucy3010##";
 
 $headers = array ('From' => $from,
