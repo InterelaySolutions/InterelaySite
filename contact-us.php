@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Form Testing</title>
+        <title>Interelay Solutions - Contact Us</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -119,7 +119,7 @@
             // send email
             mail("support@interelay.com","Website Query",$msg, $headers);
 
-            $success = "<p style='color:green;font-weight:bold'>Message Sent!</p>";
+            $success = "<p style='color:green;font-weight:bold;float: right;position: relative;top: 30px;margin-left: -300px;'>Message Sent!</p>";
         } 
         ?>
         <div>
