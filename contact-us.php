@@ -133,7 +133,9 @@ $mail->AltBody = "This is the plain text version of the email content";
 
 
 $mail->SMTPDebug = 0;
-$mail->IsSMTP();                                      // Set mailer to use SMTP
+$mail->IsSMTP(); 
+$mail->Username = $theUser;  
+$mail->Password = $thePass;                                   // Set mailer to use SMTP
 $mail->Host = 'mail.interelay.com';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
