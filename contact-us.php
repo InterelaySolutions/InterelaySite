@@ -17,8 +17,8 @@
         <script src="js/material-components-web.min.js"></script>
         <style>
             label {
-                font-family: "Arial";
-                font-weight: bold;
+                font-family: "Montserrat";
+                font-size:14px;
             }
 
             input {
@@ -32,61 +32,131 @@
             form table {
                 border: 1px solid lightgray;
                 border-radius: 5px;
-                padding:10px;
+                padding:20px;
                 background-color: #f0f0f0;
+                max-width: 600px;
+                width:100%;
+                margin-right: auto;
             }
 
             form button {
                 padding:7px;
                 border-radius: 5px;
                 border:1px solid grey;
-                background-color: lightgrey !important;
+                background-color: #343f7c !important;
             }
 
             form label {
                 color: black;
             }
 
-            input {
+            input, textarea {
                 border-radius: 5px;
                 border:1px solid black;
                 padding:10px;
+                background-color: black;
+                color: lightgray;
+                font-family: "Arial";
+                font-size: 14px;
             }
 
-            form button:focus {
-                background-color: darkgray !important;
+            button:focus, button:active {
+                background-color:midnightblue !important;
+            }
+
+            tr {
+                vertical-align: middle;
+            }
+
+            .small-island {
+                width: 95%;
+                background-color: white;
+                margin-left: auto;
+                margin-right: auto;
+                display: block !important;
+                min-width: 370px;
+                z-index: 2;
+                box-shadow: none !important;
+                border: none !important;
+            }
+
+            form {
+                display:block !important;
+            }
+
+            h2 {
+                color:black;
+                padding-top:0px;
+                font-family: "Montserrat";
+                margin-top:0px;
+            }
+            p {
+                font-size: 14px;
             }
         </style>
     </head>
     <body style="background-image: url('images/serverroom-slide1-v2.jpg');">
     <div class="logolinkbox" style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1"><a style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1" href="./" >&nbsp;</a></div>
     <div id="logobar" class="logobar" style="margin-bottom:0px;"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
-        <div id="navbar" class="navbar" style="float:none;">
-            <button class="mdc-button mdc-button--raised" style="margin-left:10px;"><a href="#top">Return to Top</a></button> <button class="mdc-button mdc-button--raised"><a href="#aboutus">About Us</a></button> <button class="mdc-button mdc-button--raised"><a href="#contactus">Contact Us</a></button>   <div id="loginpane" style="float:right;"> <!--<a href="login.php">Login and book an appointment</a> | ---><button class="mdc-button mdc-button--raised" style="margin-right:10px;top:-7px;"><a href="/osTicket/">Support Helpdesk</a></button> 
+        <div id="navbar" class="navbar" style="float:none;z-index:1;">
+            <button class="mdc-button mdc-button--raised" style="margin-left:10px; visibility:hidden !important;"><a href="#top">Return to Top</a></button> <div id="loginpane" style="float:right;"> <!--<a href="login.php">Login and book an appointment</a> | ---><button class="mdc-button mdc-button--raised" style="margin-right:10px;top:-7px;"><a href="/osTicket/">Support Helpdesk</a></button> 
 			
 			
 			</div></div>
-        <?php isset($_POST["name"]) ? print_r($_POST) : "" ?>
+        <?php 
+        if (isset($_POST["name"])) {
+            foreach ($_POST as $key => $value) {
+                $_POST[$key] = htmlentities($value);
+            }            
+            // the message
+            $msg = "Name: ".$_POST["name"]."\n
+            Phone Number: ".$_POST["number"]."\n
+            Email: ".$_POST["email"]."\n
+            Message: ".$_POST["message"];
+            $headers = 'From: support@interelay.com' . "\r\n" .
+            'Reply-To: '.$_POST["email"]."\r\n". 'X-Mailer: PHP/';
+            // send email
+            mail("support@interelay.com","Website Query",$msg, $headers);
+
+        } 
+        ?>
         <div>
-        <form method="POST" action="form_test">
+            <div class="island small-island">
+            <header>
+                <h2>Contact Us</h1>
+            </header>
+            <section>
+                <p>
+                    Use the form below to send us a message and we'll aim to get back to you within 24 hours.
+                </p>
+            </section>
+            <div>
+        <form method="POST" action="contact-us">
             <table>
                 <tr>
                     <td><label>Name:</label></td>
-                    <td><input type="text" required placeholder="Please enter your name" name="name" /></td>  
+                    <td><input type="text" required placeholder="Please enter your name" name="name" style="width:200px;" /></td>  
                 </tr>
                 <tr>
                   <td><label>Phone Number:</label></td>
-                    <td><input type="text" required placeholder="Please enter your number" name="number" pattern="[0-9]{11,12}" /></td> 
+                    <td><input type="text" placeholder="Please enter your number" name="number" pattern="[0-9]{11,12}" style="width:200px;" /></td> 
                 </tr>
                 <tr>
-                    <td><label>Date of Birth:</label></td>
-                    <td><input type="date" required placeholder="Please enter your name" name="dob" /></td>
+                    <td><label>Email Address:</label></td>
+                    <td><input type="email" required placeholder="Please enter your email" name="email"  style="width:200px;" /></td>
+                </tr>
+                <tr style="vertical-align: top;">
+                    <td><label>Message:</label></td>
+                    <td><textarea name="message" style="height:200px;max-width:500px;width:94%"></textarea></td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="text-align: right;"><button type="submit" style="font-size: 12px; font-weight:bold;">SUBMIT</button></td>
+                    <td colspan="2" style="text-align: right;"><button class="mdc-button mdc-button--raised" type="submit" style="font-size: 12px;">Send Message</button></td>
                 </tr>
             </table>
         </form>
+        </div>
+        </div>
+        
         </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>

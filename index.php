@@ -161,7 +161,7 @@
                     01634 815500<br>
                     <br>
                     <h4>Email Us:</h4>
-                    <a href="mailto:support@interelay.com" style="color: grey; text-decoration:underline">support@interelay.com</a>
+                    <a href="contact-us" style="color: grey; text-decoration:underline">Send a Message</a>
                 </div>
                 </div>
             <div style="clear:both; text-align:center; font-size:x-small;">
