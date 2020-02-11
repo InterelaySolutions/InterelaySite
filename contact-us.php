@@ -117,9 +117,13 @@
             $headers = 'From: support@interelay.com' . "\r\n" .
             'Reply-To: '.$_POST["email"]."\r\n". 'X-Mailer: PHP/';
             // send email
-            mail("support@interelay.com","Website Query",$msg, $headers);
+            if (mail("support@interelay.com","Website Query",$msg, $headers)) {
+                $success = "<p style='color:green;font-weight:bold;float: right;position: relative;top: 30px;margin-left: -300px;'>Message Sent!</p>";
+            } else {
+                $success = "<p style='color:darkred;font-weight:bold;float: right;position: relative;top: 30px;margin-left: -300px;'>Error: Please contact the admininstrator</p>"
+            };
 
-            $success = "<p style='color:green;font-weight:bold;float: right;position: relative;top: 30px;margin-left: -300px;'>Message Sent!</p>";
+
         } 
         ?>
         <div>
