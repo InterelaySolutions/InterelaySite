@@ -114,8 +114,8 @@ require_once "vendor/autoload.php";
 $mail = new PHPMailer;
 
 //From email address and name
-$mail->From = "support@interelay.com";
-$mail->FromName = "Website Query";
+$mail->setFrom("support@interelay.com","Web Query");
+$mail->Subject = "Testing";
 
 //To address and name
 $mail->addAddress("support@interelay.com"); //Recipient name is optional
@@ -124,24 +124,16 @@ $mail->addAddress("support@interelay.com"); //Recipient name is optional
 $mail->addReplyTo("noreply@interelay.com", "Reply");
 
 //Send HTML or Plain Text email
-$mail->isHTML(false);
+$mail->isHTML(true);
 
 $mail->Subject = "Subject Text";
 $mail->Body = "Mail body in HTML";
 $mail->AltBody = "This is the plain text version of the email content";
 
-if(!$mail->send()) 
-{
-    echo "Mailer Error: " . $mail->ErrorInfo;
-} 
-else 
-{
-    echo "Message has been sent successfully";
-}
 
 $mail->SMTPDebug = 2;
 $mail->IsSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'localhost';                 // Specify main and backup server
+$mail->Host = 'mail.interelay.com';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'support@interelay.com';                // SMTP username
@@ -155,6 +147,16 @@ $mail->SMTPOptions = array(
         'allow_self_signed' => true
     )
 );
+
+if(!$mail->send()) 
+{
+    echo "Mailer Error: " . $mail->ErrorInfo;
+} 
+else 
+{
+    echo "Message has been sent successfully";
+}
+
 
         $success = "";
         if (isset($_POST["name"])) {
