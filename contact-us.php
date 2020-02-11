@@ -109,6 +109,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 require_once "vendor/autoload.php";
+require_once "../credentials/creds.php";
 
 //PHPMailer Object
 $mail = new PHPMailer;
@@ -131,13 +132,14 @@ $mail->Body = "Mail body in HTML";
 $mail->AltBody = "This is the plain text version of the email content";
 
 
-$mail->SMTPDebug = 2;
+$mail->SMTPDebug = 0;
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'mail.interelay.com';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'support@interelay.com';                // SMTP username
-$mail->Password = 'Trucy3010##';                  // SMTP password
+
+
+// SMTP password
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
 
 $mail->SMTPOptions = array(
