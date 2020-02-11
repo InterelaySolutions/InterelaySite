@@ -139,15 +139,14 @@ else
     echo "Message has been sent successfully";
 }
 
-$mail->SMTPDebug = SMTP::DEBUG_SERVER;
-
+$mail->SMTPDebug = 4;
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'localhost';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'support@interelay.com';                // SMTP username
-$mail->Password = 'Trucy3010###';                  // SMTP password
-$mail->SMTPSecure = 'tls';   
+$mail->Password = 'Trucy3010##';                  // SMTP password
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   
 
 $mail->SMTPOptions = array(
     'ssl' => array(
