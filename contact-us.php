@@ -127,7 +127,7 @@ $mail->addReplyTo("noreply@interelay.com", "Reply");
 $mail->isHTML(true);
 
 $mail->Subject = "Subject Text";
-$mail->Body = "<i>Mail body in HTML</i>";
+$mail->MsgBody = "<i>Mail body in HTML</i>";
 $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send()) 
@@ -139,7 +139,7 @@ else
     echo "Message has been sent successfully";
 }
 
-$mail->SMTPDebug = 4;
+$mail->SMTPDebug = 2;
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'localhost';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
