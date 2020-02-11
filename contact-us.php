@@ -139,6 +139,8 @@ else
     echo "Message has been sent successfully";
 }
 
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+
 $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'localhost';                 // Specify main and backup server
 $mail->Port = 587;                                    // Set the SMTP port
