@@ -104,7 +104,11 @@
 			
 			</div></div>
         <?php 
-require_once "/vendor/autoload.php";
+
+//Import the PHPMailer class into the global namespace
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+require_once "vendor/autoload.php";
 
 //PHPMailer Object
 $mail = new PHPMailer;
