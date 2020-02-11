@@ -151,7 +151,8 @@ $smtp = Mail::factory('smtp',
    'auth' => true,
    'username' => $username,
    'password' => $password,
-    'port' => '587'));
+    'port' => '587',
+    'socket_options' => array('ssl' => array('verify_peer_name' => false, 'allow_self_signed' => true))));
 
 
 $body = $mime->get();
