@@ -104,6 +104,7 @@
 			
 			</div></div>
         <?php 
+        $success = "";
         if (isset($_POST["name"])) {
             foreach ($_POST as $key => $value) {
                 $_POST[$key] = htmlentities($value);
@@ -118,6 +119,7 @@
             // send email
             mail("support@interelay.com","Website Query",$msg, $headers);
 
+            $success = "<p style='color:green;font-weight:bold'>Message Sent!</p>";
         } 
         ?>
         <div>
@@ -150,7 +152,9 @@
                     <td><textarea name="message" style="height:200px;max-width:500px;width:94%"></textarea></td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="text-align: right;"><button class="mdc-button mdc-button--raised" type="submit" style="font-size: 12px;">Send Message</button></td>
+                    <td colspan="2" style="text-align: right;"><button class="mdc-button mdc-button--raised" type="submit" style="font-size: 12px;">Send Message</button>
+                    <?php echo $success ?>
+                </td>
                 </tr>
             </table>
         </form>
