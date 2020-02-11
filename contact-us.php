@@ -104,75 +104,52 @@
 			
 			</div></div>
         <?php 
-require_once "Mail.php";
-require_once "Mail/mime.php";
+require_once "vendor/autoload.php";
 
-// see http://pear.php.net/manual/en/package.mail.mail-mime.php
-// for further extended documentation on Mail_Mime
+//PHPMailer Object
+$mail = new PHPMailer;
 
-$from = "Web Master ";
-$to = "Nobody ";
-$subject = "Test HTML email using PHP Pear w/ SMTP\r\n\r\n";
-$text = "This is a text test email message";
-$html = "
+//From email address and name
+$mail->From = "support@interelay.com";
+$mail->FromName = "Website Query";
 
-This is an html test email message
-This Is A Link
-";
-$crlf = "\n";
+//To address and name
+$mail->addAddress("support@interelay.com"); //Recipient name is optional
 
-// create a new Mail_Mime for use
-$mime = new Mail_mime($crlf); 
-// define body for Text only receipt
-$mime->setTXTBody($text); 
-// define body for HTML capable recipients
-$mime->setHTMLBody($html);
+//Address to which recipient will reply
+$mail->addReplyTo("noreply@interelay.com", "Reply");
 
-// specify a file to attach below, relative to the script's location
-// if not using an attachment, comment these lines out
-// set appropriate MIME type for attachment you are using below, if applicable
-// for reference see http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+//Send HTML or Plain Text email
+$mail->isHTML(true);
 
-//$file = "attachment.jpg";
-//$mimetype = "image/jpeg";
-//$mime->addAttachment($file, $mimetype); 
+$mail->Subject = "Subject Text";
+$mail->Body = "<i>Mail body in HTML</i>";
+$mail->AltBody = "This is the plain text version of the email content";
 
-// specify the SMTP server credentials to be used for delivery
-// if using a third party mail service, be sure to use their hostname
-$host = "mail.interelay.com";
-$username = "support";
-$password = "Trucy3010##";
-
-$headers = array ('From' => $from,
- 'To' => $to,
- 'Subject' => $subject);
-$smtp = Mail::factory('smtp',
- array ('host' => $host,
-   'auth' => true,
-   'username' => $username,
-   'password' => $password,
-    'port' => '587',
-    'socket_options' => array(
-    'verify_peer' => false,
-    'verify_peer_name' => false,
-    'allow_self_signed' => true)));
-
-$body = $mime->get();
-$headers = $mime->headers($headers); 
-
-$mail = $smtp->send($to, $headers, $body);
-
-if (PEAR::isError($mail)) {
- echo("
-
-" . $mail->getMessage() . "
-");
-} else {
- echo("
-
-Message successfully sent!
-");
+if(!$mail->send()) 
+{
+    echo "Mailer Error: " . $mail->ErrorInfo;
+} 
+else 
+{
+    echo "Message has been sent successfully";
 }
+
+$mail->IsSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'mail.interelay.com';                 // Specify main and backup server
+$mail->Port = 587;                                    // Set the SMTP port
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'support@interelay.com';                // SMTP username
+$mail->Password = 'Trucy3010##';                  // SMTP password
+$mail->SMTPSecure = 'tls';   
+
+$mail->SMTPOptions = array(
+    'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+    )
+);
 
         $success = "";
         if (isset($_POST["name"])) {
