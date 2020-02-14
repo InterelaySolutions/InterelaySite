@@ -97,9 +97,28 @@
     </head>
     <body style="background-image: url('images/serverroom-slide1-v2.jpg');">
     <div class="logolinkbox" style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1"><a style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1" href="./" >&nbsp;</a></div>
-    <div id="logobar" class="logobar" style="margin-bottom:0px;"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
+    <div id="logobar" class="logobar" style="margin-bottom:0px;height:70px;"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px; font-size:16px;">Solutions</p></div>
         <div id="navbar" class="navbar" style="float:none;z-index:1;">
-            <button class="mdc-button mdc-button--raised" style="margin-left:10px; visibility:hidden !important;"><a href="#top">Return to Top</a></button> <div id="loginpane" style="float:right;"> <!--<a href="login.php">Login and book an appointment</a> | ---><a class='button-hover' style='padding: 14px;top: -2px;position: relative;'  href="/osTicket/">Support Helpdesk</a> 
+        <ul style="position: relative;top:6px;">
+                    <li><a href="index.php" class='button-hover' style='padding: 14px;top: -18px;position: relative;'>Home</a> 
+                    </li>
+                    <li><a class='button-hover' href="#" style='padding: 14px;top: -18px;position: relative;'>Software Development</a>
+                    <ul>
+                        <li><a class='button-hover' href="academic-management-system" style='padding: 14px;top:-20px;left:72px;position: relative;'>Academic Management System</a></li>
+                        <!--<li><a class='button-hover' href="salsa-website" style='padding: 14px;top:-20px;left:332px;position: relative;'>Salsa Website</a></li>-->
+                        <li><a class='button-hover' href="quality-reporting-site" style='padding: 14px;top:-20px;left:72px;position: relative;'>Quality Reporting Site</a></li>
+                    </ul> 
+                    <li><a class='button-hover' href="#contactus" style='padding: 14px;top: -18px;position: relative;'>IT Services</a> 
+                    <ul>
+                        <li><a class='button-hover' href="computer-repair" style='padding: 14px;top:-20px;left:262px;position: relative;'>Computer Repair</a></li>
+                        <li><a class='button-hover' href="managed-it-services" style='padding: 14px;top:-20px;left:262px;position: relative;'>Managed IT Services</a></li>
+                        <li><a class='button-hover' href="Network-vpn-management" style='padding: 14px;top:-20px;left:262px;position: relative;'>Network & VPN Management</a></li>
+                        <li><a class='button-hover' href="it-consultancy" style='padding: 14px;top:-20px;left:262px;position: relative;'>Consultancy</a></li>
+                    </ul>
+                    </li>
+                    </li>
+                </ul> 
+                <div id="loginpane" style="float:right;"> <!--<a href="login.php">Login and book an appointment</a> | ---><a class='button-hover' style='padding: 14px;top: -18px;position: relative;'  href="/osTicket/">Support Helpdesk</a> 
 			
 			
 			</div></div>

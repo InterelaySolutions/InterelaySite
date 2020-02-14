@@ -57,13 +57,20 @@
                     </li>
                     <li><a class='button-hover' href="#contactus" style='padding: 14px;top: -18px;position: relative;'>Contact Us</a> 
                     </li>
-                    <li><a class='button-hover' href="#" style='padding: 14px;top: -18px;position: relative;'>Portfolios</a>
+                    <li><a class='button-hover' href="#" style='padding: 14px;top: -18px;position: relative;'>Software Development</a>
                     <ul>
                         <li><a class='button-hover' href="academic-management-system" style='padding: 14px;top:-20px;left:332px;position: relative;'>Academic Management System</a></li>
-                        <!--
-                        <li><a class='button-hover' href="salsa-website" style='padding: 14px;top:-20px;left:332px;position: relative;'>Salsa Website</a></li> -->
+                        <!--<li><a class='button-hover' href="salsa-website" style='padding: 14px;top:-20px;left:332px;position: relative;'>Salsa Website</a></li>-->
                         <li><a class='button-hover' href="quality-reporting-site" style='padding: 14px;top:-20px;left:332px;position: relative;'>Quality Reporting Site</a></li>
                     </ul> 
+                    <li><a class='button-hover' href="#contactus" style='padding: 14px;top: -18px;position: relative;'>IT Services</a> 
+                    <ul>
+                        <li><a class='button-hover' href="computer-repair" style='padding: 14px;top:-20px;left:522px;position: relative;'>Computer Repair</a></li>
+                        <li><a class='button-hover' href="managed-it-services" style='padding: 14px;top:-20px;left:522px;position: relative;'>Managed IT Services</a></li>
+                        <li><a class='button-hover' href="network-vpn-management" style='padding: 14px;top:-20px;left:522px;position: relative;'>Network & VPN Management</a></li>
+                        <li><a class='button-hover' href="it-consultancy" style='padding: 14px;top:-20px;left:522px;position: relative;'>Consultancy</a></li>
+                    </ul>
+                    </li>
                     </li>
                 </ul> 
         </div> <div id="loginpane" style="float:right; margin-top:-7;"> <!--<a href="login.php">Login and book an appointment</a> | ---><a class='button-hover' style='padding: 14px;top: -22px;position: relative;' href="/osTicket/">Support Helpdesk</a> 

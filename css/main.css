@@ -2,11 +2,11 @@
 
 div {border 0px solid blue; display: block; padding: 6px; font-family: sans-serif; }
 
-h1 {padding: 0px; color:azure; font-family:Arial, sans-serif; font-weight: bold; text-align: left; font-size:40px}
+h1 {padding: 0px; color:azure; font-family:Arial, sans-serif; font-weight: bold; text-align: left;}
 
 h3 {color:grey; font-family: Arial, sans-serif; text-align: center; font-size: medium; text-shadow: none; font-family: 'Roboto'}
 
-h4 {font-size: 16px; margin:0px;}
+h4 {margin:0px;}
 
 h5 {text-align: center; font-size: x-large; padding: 0px; margin: 10px;}
 
@@ -81,7 +81,8 @@ p {
 ul li ul li .button-hover {
     background-color:rgba(66, 66, 66, 0.76); 
     width:200px;
-    display:block
+    display:block;
+    border-radius: 0px;
 }
 
 li {
@@ -102,6 +103,8 @@ li {
      margin-top: 1rem;
      left: 0;
      display: none;
+     border-radius: 0px;
+     transition: visibility 1s linear 1s, opacity 300ms;
    }
    
    ul li:hover > ul,
@@ -109,11 +112,13 @@ li {
      visibility: visible;
      opacity: 1;
      display: block;
+     transition: visibility 1s linear 1s, opacity 300ms;
    }
    
    ul li ul li {
      clear: both;
      width: 100%;
+     border-radius: 0px;
    }
 
 /* ID CSS */
