@@ -4,6 +4,7 @@
         <link rel='icon' href='icons/interelay_small.ico' type='image/x-icon'/ >
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Oxygen:300|Roboto:300|Sintony&display=swap" rel="stylesheet"> 
         <script src="js/jquery.js"></script>
         <link href="css/material-components-web.min.css" rel="stylesheet">
         <script src="js/material-components-web.min.js"></script>

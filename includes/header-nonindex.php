@@ -14,22 +14,20 @@
                 <ul>
                     <li><a href="#top" class='button-hover' style='padding: 13px;top: -18px;position: relative;'>Return to Top</a> 
                     </li>
-                    <li><a class='button-hover' href="#aboutus" style='padding: 13px;top: -18px;position: relative;'>About Us</a>  
-                    </li>
                     <li><a class='button-hover' href="#contactus" style='padding: 13px;top: -18px;position: relative;'>Contact Us</a> 
                     </li>
                     <li><a class='button-hover' href="#" style='padding: 13px;top: -18px;position: relative;'>Software Development</a>
                     <ul class="dropdown">
-                        <li><a class='button-hover' href="academic-management-system" style='padding: 13px;top:-21px;left:334px;position: relative;'>Academic Management System</a></li>
-                        <!--<li><a class='button-hover' href="salsa-website" style='padding: 13px;top:-20px;left:332px;position: relative;'>Salsa Website</a></li>-->
-                        <li><a class='button-hover' href="quality-reporting-site" style='padding: 13px;top:-21px;left:334px;position: relative;'>Quality Reporting Site</a></li>
+                        <li><a class='button-hover' href="academic-management-system" style='padding: 13px;top:-21px;left:239px;position: relative;'>Academic Management System</a></li>
+                        <!--<li><a class='button-hover' href="salsa-website" style='padding: 13px;top:-21px;left:332px;position: relative;'>Salsa Website</a></li>-->
+                        <li><a class='button-hover' href="quality-reporting-site" style='padding: 13px;top:-21px;left:239px;position: relative;'>Quality Reporting Site</a></li>
                     </ul> 
-                    <li><a class='button-hover' href="#contactus" style='padding: 13px;top: -18px;position: relative;'>IT Services</a> 
+                    <li><a class='button-hover' href="#" style='padding: 13px;top: -18px;position: relative;'>IT Services</a> 
                     <ul class="dropdown">
-                      <li><a class='button-hover' href="computer-repair" style='padding: 13px;top:-21px;left:531px;position: relative;'>Computer Repair</a></li>
-                        <li><a class='button-hover' href="managed-it-services" style='padding: 13px;top:-21px;left:531px;position: relative;'>Managed IT Services</a></li>
-                        <li><a class='button-hover' href="network-vpn-management" style='padding: 13px;top:-21px;left:531px;position: relative;'>Network & VPN Management</a></li>
-                        <li><a class='button-hover' href="it-consultancy" style='padding: 13px;top:-21px;left:531px;position: relative;'>Consultancy</a></li>
+                      <li><a class='button-hover' href="computer-repair" style='padding: 13px;top:-21px;left:437px;position: relative;'>Computer Repair</a></li>
+                        <li><a class='button-hover' href="managed-it-services" style='padding: 13px;top:-21px;left:437px;position: relative;'>Managed IT Services</a></li>
+                        <li><a class='button-hover' href="network-vpn-management" style='padding: 13px;top:-21px;left:437px;position: relative;'>Network & VPN Management</a></li>
+                        <li><a class='button-hover' href="it-consultancy" style='padding: 13px;top:-21px;left:437px;position: relative;'>Consultancy</a></li>
                     </ul>
                     </li>
                     </li>

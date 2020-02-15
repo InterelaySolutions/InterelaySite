@@ -4,6 +4,7 @@
         <link rel='icon' href='icons/interelay_small.ico' type='image/x-icon'/ >
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Oxygen:300|Roboto:300|Sintony&display=swap" rel="stylesheet"> 
         <script src="js/jquery.js"></script>
         <link href="css/material-components-web.min.css" rel="stylesheet">
         <script src="js/material-components-web.min.js"></script>
@@ -36,74 +37,103 @@
                 $('body, html').animate({scrollTop: pos});
             });
   </script>
-  <style>
-  h1 {
-      font-family: 'Roboto';
-      font-size: 32px;
-  }
-  
-  </style>
     </head>
     <body style="background-color:black;">
-    <?php include 'includes/header.php' ?>
+    <?php include 'includes/header-nonindex.php' ?>
         <!-- Slide #1 -- Three Divs aligned into three columns -->
         <div class="slide" style="background-image: url('images/serverroom-slide1-v2.jpg'); background-repeat:no-repeat; background-size:cover; position:relative; top:-43px; padding-bottom:50px;">
             <a class="smoothScroll" id="top"></a>
 <br><br>
             <div id="three_way_container">
                 <section>
+                <div class="equal-div80-headline">
+                    <header>
+                        <h1>academic management system</h1>
+                    </header>
+                </div>
+                    <div class="equal-div80">
+                        <article>
+                            <p>Custom Software Solutions allow companies to deploy tailored solutions to meet their needs, Interelay Solutions is no stranger to this requirement and we leverage our considerable talent and experience to develop projects that major software houses would be too inflexible to provide.</p> 
+                            <p>One of our examples we developed for a local small business is the Academic Management System. As standard solutions, they discovered, we're not appropriate for their needs.</p>
+                        </article>
+                    </div>
+                    <div class="equal-div80-header-left">
+                    <header>
+                        <h1>introduction</h1>
+                        </header>
+        </div>
+                        <div class="equal-div80-header-center">
+                        <div class='curve-flatten'></div>
+                </div>
                     <div class="equal-div80">
                         <figure style="float:right">
                             <img src="images/ams/frontpage-example.png" class="examples" />
                             <figcaption>Welcome Page for the Academic Management System</figcaption>
                         </figure>
-                        <header>
-                            <h2>Academic Management System</h2>
-                        </header>
                         <article>
                             <p>Introduction</p>
                         </article>
                     </div>
+                    <div class="equal-div80-header-left">
+                    <header>
+                        <h1>capabilities</h1>
+                        </header>
+        </div>
+                        <div class="equal-div80-header-center">
+                        <div class='curve-flatten'></div>
+                </div>
                     <div class="equal-div80">
                         <figure style="float:right">
                             <img src="images/ams/timetable-example.jpg" class="examples" />
                             <figcaption>Timetable User Interface - Responsive Design</figcaption>
                         </figure>
-                        <header>
-                            <h2>Capabilities</h2>
-                        </header>
                         <article>
                             <p>Introduction</p>
                         </article>
                     </div>
+                    <div class="equal-div80-header-left">
+                    <header>
+                        <h1>extensibility</h1>
+                        </header>
+        </div>
+                        <div class="equal-div80-header-center">
+                        <div class='curve-flatten'></div>
+                </div>
                     <div class="equal-div80">
-                    <figure style="float:right">
+                        <figure style="float:right">
                             <img src="images/ams/code-modules-example.png" class="examples" />
                             <figcaption>Modular Design - Infinitly Customisable</figcaption>
                         </figure>
-                        <header>
-                            <h2>Extensibility</h2>
-                        </header>
                         <article>
                             <p>Introduction</p>
                         </article>
                     </div>
+                    <div class="equal-div80-header-left">
+                    <header>
+                        <h1>remote updates & management</h1>
+                        </header>
+        </div>
+                        <div class="equal-div80-header-center">
+                        <div class='curve-flatten'></div>
+                </div>
                     <div class="equal-div80">
-                    <figure style="float:right">
+                        <figure style="float:right">
                             <img src="images/ams/version-control-remote-updates.png" class="examples" />
                             <figcaption>Branch Management - Live & Beta - Remote Update System</figcaption>
                         </figure>
-                        <header>
-                            <h2>Remote Updates & Management</h2>
-                        </header>
                         <article>
                             <p>Introduction</p>
                         </article>
                     </div>
-                    <div class="equal-div80">
-                        <header>
-                            <h2>After Project Support</h2>
+                    <div class="equal-div80-header-left">
+                    <header>
+                        <h1>after project support</h1>
                         </header>
+        </div>
+                        <div class="equal-div80-header-center">
+                        <div class='curve-flatten'></div>
+                </div>
+                    <div class="equal-div80">
                         <article>
                             <p>Introduction</p>
                         </article>

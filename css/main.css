@@ -1,14 +1,14 @@
 /* Main Tag CSS */
 
-div {border 0px solid blue; display: block; padding: 6px; font-family: "Montserrat" }
+div {border 0px solid blue; display: block; padding: 6px; font-family: "Raleway" }
 
-h1 {padding: 0px; color:azure; font-family: "Montserrat" ; font-weight: normal; text-align: left;}
+h1 {padding: 0px; color:azure; font-family: "Raleway" ; font-weight: normal; text-align: left;}
 
 .slide_inverted h2 {
   text-shadow: 0px 0px 2px lightgray;
 }
 
-h3 {color:grey; font-family: Arial, sans-serif; text-align: center; font-size: medium; text-shadow: 0px 0px 2px lightgray; font-family: "Montserrat"}
+h3 {color:grey; font-family: Arial, sans-serif; text-align: center; font-size: medium; text-shadow: 0px 0px 2px lightgray; font-family: "Raleway"}
 
 h4 {margin:0px;}
 
@@ -27,7 +27,7 @@ form label {display: table-cell;}
 form input {display: table-cell;}
 
 p {
-  font-family: "Montserrat";
+  font-family: "Raleway";
   text-shadow:0px 0px 2px rgb(215, 215, 215)
 }
 
@@ -35,16 +35,67 @@ p {
 
 /* Class CSS */
 
-.slide {height:auto; clear:both; padding:0px; background-color: black; border: 0px solid black; margin-top: 0px; margin-bottom: 0px;    font-family: "Montserrat"; }
+.slide {height:auto; clear:both; padding:0px; background-color: black; border: 0px solid black; margin-top: 0px; margin-bottom: 0px;    font-family: "Raleway"; }
 
-.slide_inverted {height:650px; clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; background-color: black; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px;  font-family: "Montserrat";}
+.slide_inverted {height:650px; clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; background-color: black; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px;  font-family: "Raleway";}
 
-.equal-div33 {width: 100%; display: inline-block; vertical-align: top; max-width: 32%; height: 300px; margin: 10px; padding: 20px; border-radius:30px; background-color: aliceblue; min-width: 600px;font-family: "Montserrat" !important;}
+.equal-div33 {width: 100%; display: inline-block; vertical-align: top; max-width: 32%; height: 330px; margin: 10px; padding: 20px; border-radius:30px; background-color: aliceblue; min-width: 600px;font-family: "Raleway" !important;}
 
-.equal-div80 {width: 100%; display: inline-block; vertical-align: top; max-width: 60%; height: auto; margin: 10px; padding: 15px; border-radius:5px; background-color: aliceblue; min-width: 600px; text-align: left; overflow:auto;font-family: "Montserrat" !important;font-weight: normal !important;}
+.equal-div80 {width: 100%; display: inline-block; vertical-align: top; max-width: 60%; height: auto; margin: 10px; padding: 15px; border-radius:5px; background-color: aliceblue; min-width: 600px; text-align: left; overflow:auto;font-family: "Raleway" !important;font-weight: normal !important; overflow-x: hidden;}
+
+.equal-div80-headline h1 {
+  text-align: center;
+  font-size: 48px;
+  margin:10px;
+}
+
+.equal-div80-header-left {
+  
+}
+
+.equal-div80-header-center {
+  text-align: center;
+  font-size: 18px;
+}
+.equal-div80-header-left h1{
+  width:100%;
+  display: inline-block;
+  position: relative;
+  min-width: 592px;
+  max-width: 60%;
+  background-color: rgba(66, 66, 66, 0.76);
+  bottom:-40px;
+margin: 0px;
+padding: 10px;
+padding-left:18px;
+padding-right:19px;
+margin-top:-30px;
+}
+
+.curve-flatten{
+  width: 100%; display: inline-block; vertical-align: top; max-width: 60%; height: 1px; padding-left: 18px; padding-right: 19px;background-color: aliceblue; min-width: 592px; text-align: left; overflow:auto;font-family: "Raleway" !important;font-weight: normal !important; overflow-x: hidden;position: relative; bottom:-28px; text-align: center;
+  }
 
 .equal-div80 h2 {
-  margin-top: 8px;
+  background: rgba(66, 66, 66, 0.76);padding: 20px;margin-top: -25px;margin-left: -25px;width: 100%;padding-bottom: 10px;border: 1px solid lightgray; color:white; text-transform: lowercase; font-weight: normal !important;
+}
+
+.equal-div80 h1 {
+  background: rgba(66, 66, 66, 0.76);padding: 20px;margin-top: -25px;margin-left: -25px;width: 100%;padding-bottom: 10px;border: 1px solid lightgray; color:white;
+}
+
+.equal-div80 article {
+  padding-left: 5px;
+}
+
+.equal-div80 figure {
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-right: -4px;
+  margin-top: -5px;
+  box-shadow: 2px 1px 6px #595959;
 }
 
 .slide2_left {display: inline-block; width:10%; margin: 0px; margin-bottom: 10px; vertical-align: top; text-align: right; padding-right: 10px;}
@@ -53,11 +104,11 @@ p {
 
 .slide2_right {display: inline-block; width:70%; margin: 0px; margin-left: 25px; margin-bottom: 10px; vertical-align: top;}
 
-.slide3 {display: inline-block; width:85%; margin: 0px; margin-left: 25px; margin-bottom: 15px; vertical-align: top; text-align: left; color: white;  font-family: "Montserrat";}
+.slide3 {display: inline-block; width:85%; margin: 0px; margin-left: 25px; margin-bottom: 15px; vertical-align: top; text-align: left; color: white;  font-family: "Raleway";}
 
 .container {width:95%; margin: 0px auto; position: relative; top: 15px; padding: 0px; }
 
-.general_slide { clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px; background-image: linear-gradient(to bottom, transparent 0%, cadetblue 100%),url('slide3_v1.jpg'); background-repeat:repeat-y; background-size:cover; height:600px; text-align: center;  font-family: "Montserrat"; }
+.general_slide { clear:both; padding:0px; color:dimgray; text-shadow: 1px 1px 3px white; border: 0px solid black; margin-top: 0px; margin-bottom: 0px; margin-top: -19px; background-image: linear-gradient(to bottom, transparent 0%, cadetblue 100%),url('slide3_v1.jpg'); background-repeat:repeat-y; background-size:cover; height:600px; text-align: center;  font-family: "Raleway"; }
 
 .island {background-image: url(footerstripe.gif); border: 1px solid grey; border-radius:5px; width:50%;display:inline-block; margin-top:20px; box-shadow: 1px 1px 4px black; padding: 20px;}
 
@@ -160,11 +211,11 @@ li {
 
 #three_way_container {margin: 0px auto; text-align: center; vertical-align: top; padding-top: 30px;} 
 
-#footer {height:275px; clear:both; padding:0px; background-color: lightgrey; background-image: url('footerstripe.gif'); color: grey; text-shadow: 1px 1px 3px rgb(189, 187, 187); border: 1px solid black;    font-family: "Montserrat";}
+#footer {height:275px; clear:both; padding:0px; background-color: lightgrey; background-image: url('footerstripe.gif'); color: grey; text-shadow: 1px 1px 3px rgb(189, 187, 187); border: 1px solid black;    font-family: "Raleway";}
 
-#footer_left {float: left; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: left;    font-family: "Montserrat";  text-shadow: 0px 0px 2px rgb(189, 187, 187);}
+#footer_left {float: left; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: left;    font-family: "Raleway";  text-shadow: 0px 0px 2px rgb(189, 187, 187);}
 
-#footer_right {float:right; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: right;    font-family: "Montserrat";  text-shadow: 0px 0px 2px rgb(189, 187, 187);}
+#footer_right {float:right; width:45%; margin: 0px; margin-top:0px; vertical-align: top; text-align: right;    font-family: "Raleway";  text-shadow: 0px 0px 2px rgb(189, 187, 187);}
 
 #required {color: red; font-weight: bold;}
 
@@ -187,7 +238,6 @@ li {
 
 .examples {
   border-radius: 3px;
-  border:1px solid grey;
   width:500px;
   height:auto;
 }
@@ -196,8 +246,7 @@ figcaption {
   font-size: 0.9em;
   padding: 5px;
   background-color: white;
-  border: 1px dashed lightgray;
-  font-family: "Montserrat";
+  font-family: "Raleway";
 }
 
 figure {

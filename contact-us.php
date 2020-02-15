@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Oxygen:300|Roboto:300|Sintony&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href="css/material-components-web.min.css" rel="stylesheet">
         <script src="js/material-components-web.min.js"></script>
@@ -87,7 +88,6 @@
             h2 {
                 color:black;
                 padding-top:0px;
-                font-family: "Montserrat";
                 margin-top:0px;
             }
             p {
@@ -118,10 +118,10 @@
                     </ul> 
                     <li><a class='button-hover' href="#contactus" style='padding: 14px;top: -18px;position: relative;'>IT Services</a> 
                     <ul>
-                        <li><a class='button-hover' href="computer-repair" style='padding: 14px;top:-20px;left:262px;position: relative;'>Computer Repair</a></li>
-                        <li><a class='button-hover' href="managed-it-services" style='padding: 14px;top:-20px;left:262px;position: relative;'>Managed IT Services</a></li>
-                        <li><a class='button-hover' href="Network-vpn-management" style='padding: 14px;top:-20px;left:262px;position: relative;'>Network & VPN Management</a></li>
-                        <li><a class='button-hover' href="it-consultancy" style='padding: 14px;top:-20px;left:262px;position: relative;'>Consultancy</a></li>
+                        <li><a class='button-hover' href="computer-repair" style='padding: 14px;top:-20px;left:272px;position: relative;'>Computer Repair</a></li>
+                        <li><a class='button-hover' href="managed-it-services" style='padding: 14px;top:-20px;left:272px;position: relative;'>Managed IT Services</a></li>
+                        <li><a class='button-hover' href="Network-vpn-management" style='padding: 14px;top:-20px;left:272px;position: relative;'>Network & VPN Management</a></li>
+                        <li><a class='button-hover' href="it-consultancy" style='padding: 14px;top:-20px;left:272px;position: relative;'>Consultancy</a></li>
                     </ul>
                     </li>
                     </li>
