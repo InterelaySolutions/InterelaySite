@@ -89,6 +89,7 @@ li {
     display: block;
     transition-duration: 0.5s;
     float: left;
+    transition: all linear 0.2s;
    }
    
    li:hover {
@@ -99,26 +100,41 @@ li {
      visibility: hidden;
      opacity: 0;
      position: absolute;
-     transition: all 0.5s ease;
      margin-top: 1rem;
      left: 0;
      display: none;
      border-radius: 0px;
-     transition: visibility 1s linear 1s, opacity 300ms;
+     transition: all linear 0.2s;
    }
+
+   ul li ul a {
+    opacity: 1;
+    transition: all linear 0.2s;
+    padding: 10px !important;
+    width:240px !important;
+  }
+
+  ul li ul a:hover {
+    opacity: 1;
+    transition: all linear 0.2s;
+    border:1px solid lightblue;
+    padding: 10px !important;
+    width:241px !important;
+  }
    
    ul li:hover > ul,
    ul li ul:hover {
      visibility: visible;
      opacity: 1;
      display: block;
-     transition: visibility 1s linear 1s, opacity 300ms;
+     transition: all linear 0.2s;
    }
    
    ul li ul li {
      clear: both;
      width: 100%;
      border-radius: 0px;
+     transition: all linear 0.2s;
    }
 
 /* ID CSS */
@@ -144,6 +160,10 @@ li {
 #success {color: green; font-weight: bold;}
 
 #textbox {background-color:white; padding:10px; border:1px solid grey; border-radius:5px;text-align:left;}
+
+.dropdown a {
+  transition: all linear 0.2s;
+}
 
 :root {
     --mdc-theme-primary: #343f7c;
