@@ -69,7 +69,7 @@
                 <div class="equal-div33"><img src="images/Circle-icons-computer.png" style="width:100%;max-width:150px; height:auto;">
                 <header><h3>Hardware and Software Challenges</h3></header>
                 <article>
-                    <p>Our IT support technicians has over ten years of experience in handling software and hardware faults.  Performing ad-hoc repairs and ensure a resolution before leaving the premises.  We provide a call-out service for home users and a contracted service for regular maintenence of business infrastructure (Hardware and Software based).  Contact us now too see what managed IT solutions we can provide for you, or if you're a customer, please call now and book an appointment!</p>
+                    <p>Our IT support technicians have over ten years of experience in handling software and hardware faults.  Performing ad-hoc repairs and ensure a resolution before leaving the premises.  We provide a call-out service for home users and a contracted service for regular maintenence of business infrastructure (Hardware and Software based).  Contact us now too see what managed IT solutions we can provide for you, or if you're a customer, please call now and book an appointment!</p>
                 </article>
             </div>
             <div class="equal-div33"><img src="images/network.png" style="width:100%;max-width:150px; height:auto;">
