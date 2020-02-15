@@ -180,8 +180,9 @@ li {
     opacity: 1;
     transition: all linear 0.2s;
     border:1px solid lightblue;
+    border-radius:4px;
     padding: 10px !important;
-    width:241px !important;
+    width:245px !important;
   }
    
    ul li:hover > ul,
