@@ -1,5 +1,13 @@
 <div class="logolinkbox" style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1"><a style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1" href="./" >&nbsp;</a></div>
     <div id="logobar" class="logobar"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px;">Solutions</p></div>
+    <div style="float: right; margin-top:-30px;">
+    <a href='https://www.facebook.com/Interelay-Solutions-102178838041047/' target="_blank">
+        <img src="images/facebook.png" style="width:30px; height:auto;padding-right:5px" />
+    </a>
+    <a href='https://twitter.com/interelay' target="_blank">
+        <img src="images/twitter.png" style="width:30px; height:auto;" />
+    </a>
+    </div>
         <div id="navbar" class="navbar">
             <nav>
                 <div style="left: -40px;position: relative;">

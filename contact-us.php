@@ -97,7 +97,15 @@
     </head>
     <body style="background-image: url('images/serverroom-slide1-v2.jpg');">
     <div class="logolinkbox" style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1"><a style="position:fixed; left:0px; top:0px; width:310px; height:77px;float: left;z-index:1" href="./" >&nbsp;</a></div>
-    <div id="logobar" class="logobar" style="margin-bottom:0px;height:70px;"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px; font-size:16px;">Solutions</p></div>
+    <div id="logobar" class="logobar" style="margin-bottom:0px;height:90px;"><img src="images/logo.png" style="float:left; height:60px; margin-right:7px; margin-left:7px;"/><h1 style="color:white; float:left; margin:14px; font-family: 'Montserrat'">Interelay</h1> <p style="color:white; position:relative; margin:14px; font-family: 'Montserrat'; top: 25px;left: -11px; font-size:16px;">Solutions</p></div>
+    <div style="float: right; margin-top:-45px;">
+    <a href='https://www.facebook.com/Interelay-Solutions-102178838041047/' target="_blank">
+        <img src="images/facebook.png" style="width:30px; height:auto;padding-right:5px" />
+    </a>
+    <a href='https://twitter.com/interelay' target="_blank">
+        <img src="images/twitter.png" style="width:30px; height:auto;" />
+    </a>
+    </div>
         <div id="navbar" class="navbar" style="float:none;z-index:1;">
         <ul style="position: relative;top:6px;">
                     <li><a href="index.php" class='button-hover' style='padding: 14px;top: -18px;position: relative;'>Home</a> 
