@@ -41,7 +41,7 @@
     <body style="background-color:black;">
     <?php include 'includes/header-nonindex.php' ?>
         <!-- Slide #1 -- Three Divs aligned into three columns -->
-        <div class="slide" style="background-image: url('images/serverroom-slide1-v2.jpg'); background-repeat:no-repeat; background-size:cover; position:relative; top:-43px; padding-bottom:50px;">
+        <div class="slide" style="background-image: url('images/purple-code-slide.jpg'); background-repeat:no-repeat; background-size:contain; background-color:#080429; position:relative; top:-43px; padding-bottom:50px; background-position:right;">
             <a class="smoothScroll" id="top"></a>
 <br><br>
             <div id="three_way_container">
