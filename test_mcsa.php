@@ -71,9 +71,7 @@
                             <figcaption>Welcome Page for the Academic Management System</figcaption>
                         </figure>
                         <article>
-                            <p>This system is able to store Pupil and Parent information, combine that with attendances and links with several API's to further extend its functionality.</p>
-                            <p>This project has a fully functional tiered permissions system and significant integrations into the companies Google Drive, which stores the companies academic course materials.</p>
-                            <p>Lastly, with the bespoke solution in place, we have created several large extensions to the system which have dramatically improved its capability and the staff's productivity.</p>
+                            <p>Introduction</p>
                         </article>
                     </div>
                     <div class="equal-div80-header-left">
@@ -90,9 +88,7 @@
                             <figcaption>Timetable User Interface - Responsive Design</figcaption>
                         </figure>
                         <article>
-                            <p>One of the unique design decisions and features is the Timetable system, having a long list of courses was not feasible when we store hundreds of courses over an academic year.</p>
-                            <p>This design allows a great visual management system which allows the company to get a full understanding of the term, courses and pupil registers within a few seconds without any searching required.</p>
-                            <p>Once completed this timetable can also be printed with term specific timetable notes for parents to reference with rich text functionality, giving the company significant flexibility on what they can do and offer.</p>
+                            <p>Introduction</p>
                         </article>
                     </div>
                     <div class="equal-div80-header-left">
@@ -109,9 +105,7 @@
                             <figcaption>Modular Design - Infinitly Customisable</figcaption>
                         </figure>
                         <article>
-                            <p>Built from the ground up to be customisible, this system allows a modular design to decrease the need for bug/unit testing and provides a quick and easy way to extend the system to any companies needs.</p>
-                            <p>Using an easy to understand codebase and complete documentation will allow others to take the system and provide further inhouse customisations.</p>
-                            <p>Created from modern languages such as PHP, Javascript, CSS and HTML5, powered by Industry Standard MySQL Database Storage technologies which allows portability and remote access to the database through VPN.</p>
+                            <p>Introduction</p>
                         </article>
                     </div>
                     <div class="equal-div80-header-left">
@@ -128,9 +122,7 @@
                             <figcaption>Branch Management - Live & Beta - Remote Update System</figcaption>
                         </figure>
                         <article>
-                            <p>All experimental features are built on a remote testbed with significant unit testing performed ensuring minimal distruption during updates.</p>
-                            <p>We manage multiple branches to allow a larger collaborative effort with staff and stakeholders.</p>
-                            <p>We also provide a remote update & management solution whcih means that distance is no hinderance in our bespoke software development, we can further extend this to development in AWS Cloud or Microsoft Azure.  For remote mananagement solutions, the sky's the limit!</p>
+                            <p>Introduction</p>
                         </article>
                     </div>
                     <div class="equal-div80-header-left">
@@ -143,9 +135,7 @@
                 </div>
                     <div class="equal-div80">
                         <article>
-                            <p>After development has finished, that doesn't mean our commitment ends.  We offer a very competititive & comprehensive maitenance solution, which integrates in platform management, regular updates and a total backup database solution with multiple redundencies.</p>  
-                            <p>We gaurantee 99.5% uptime on all of our larger scale solutions, making sure that your system is there when you need it!</p>
-                            <p>If you're interested in this solution or a similar customized solution, contact us below or reach out on our social media channels and we will develop a design brief for you to review.</p>
+                            <p>Introduction</p>
                         </article>
                     </div>
                 </section>
