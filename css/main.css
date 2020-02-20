@@ -41,7 +41,7 @@ p {
 
 .equal-div33 {width: 100%; display: inline-block; vertical-align: top; max-width: 32%; height: 330px; margin: 10px; padding: 20px; border-radius:30px; background-color: aliceblue; min-width: 600px;font-family: "Raleway" !important;}
 
-.equal-div80 {width: 100%; display: inline-block; vertical-align: top; max-width: 60%; height: auto; margin: 10px; padding: 15px; border-radius:5px; background-color: aliceblue; min-width: 600px; text-align: left; overflow:auto;font-family: "Raleway" !important;font-weight: normal !important; overflow-x: hidden;}
+.equal-div80 {width: 100%; display: inline-block; vertical-align: top; max-width: 60%; height: auto; margin: 10px; padding: 15px; border-radius:5px; background-color: aliceblue; min-width: 650px; text-align: left; overflow:auto;font-family: "Raleway" !important;font-weight: normal !important; overflow-x: hidden;}
 
 .equal-div80-headline h1 {
   text-align: center;
@@ -61,7 +61,7 @@ p {
   width:100%;
   display: inline-block;
   position: relative;
-  min-width: 592px;
+  min-width: 643px;
   max-width: 60%;
   background-color: rgba(66, 66, 66, 0.76);
   bottom:-40px;
@@ -73,7 +73,7 @@ margin-top:-30px;
 }
 
 .curve-flatten{
-  width: 100%; display: inline-block; vertical-align: top; max-width: 60%; height: 1px; padding-left: 18px; padding-right: 19px;background-color: aliceblue; min-width: 592px; text-align: left; overflow:auto;font-family: "Raleway" !important;font-weight: normal !important; overflow-x: hidden;position: relative; bottom:-28px; text-align: center;
+  width: 100%; display: inline-block; vertical-align: top; max-width: 60%; height: 1px; padding-left: 18px; padding-right: 19px;background-color: aliceblue; min-width: 643px; text-align: left; overflow:auto;font-family: "Raleway" !important;font-weight: normal !important; overflow-x: hidden;position: relative; bottom:-28px; text-align: center;
   }
 
 .equal-div80 h2 {
@@ -93,8 +93,7 @@ margin-top:-30px;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid lightgray;
-  margin-right: -4px;
-  margin-top: -5px;
+  margin: 9px;
   box-shadow: 2px 1px 6px #595959;
 }
 

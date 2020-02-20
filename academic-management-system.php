@@ -130,7 +130,7 @@
                         <article>
                             <p>All experimental features are built on a remote testbed with significant unit testing performed ensuring minimal distruption during updates.</p>
                             <p>We manage multiple branches to allow a larger collaborative effort with staff and stakeholders.</p>
-                            <p>We also provide a remote update & management solution whcih means that distance is no hinderance in our bespoke software development, we can further extend this to development in AWS Cloud or Microsoft Azure.  For remote mananagement solutions, the sky's the limit!</p>
+                            <p>We also provide a remote update & management solution which means that distance is no hinderance in our bespoke software development, we can further extend this to development in AWS Cloud or Microsoft Azure.  For remote mananagement solutions, the sky's the limit!</p>
                         </article>
                     </div>
                     <div class="equal-div80-header-left">
