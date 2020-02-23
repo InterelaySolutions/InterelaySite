@@ -10,8 +10,7 @@
         <script src="js/material-components-web.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="canonical" href="http://www.interelay.com" />      
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="canonical" href="http://www.interelay.com" />
         <script>
             // handle links with @href started with '#' only
             $(document).on('click', 'a[href^="#"]', function(e) {
