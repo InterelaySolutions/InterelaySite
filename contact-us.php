@@ -8,11 +8,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Interelay Solutions - Contact Us</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
         <link href="https://fonts.googleapis.com/css?family=Raleway|Oxygen:300|Roboto:300|Sintony&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link href="css/material-components-web.min.css" rel="stylesheet">
         <script src="js/material-components-web.min.js"></script>
