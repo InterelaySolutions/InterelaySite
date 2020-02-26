@@ -1,7 +1,7 @@
 <html><head>
         <title>Interelay Solutions - Computer Repairs, Managed IT Services, Network Administration and Anti-Virus Services in Kent</title>
          	
-        <link rel='icon' href='icons/interelay_small.ico' type='image/x-icon'/ >
+        <link rel='icon' href='images/interelay_small.ico' type='image/x-icon'/ >
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">  
         <link href="https://fonts.googleapis.com/css?family=Raleway|Oxygen:300|Roboto:300|Sintony&display=swap" rel="stylesheet"> 
