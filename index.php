@@ -1,5 +1,5 @@
 <html><head>
-        <title>Software Development, Computer Repairs, Managed IT Services & Network Administration in Kent - Interelay Solutions</title>
+        <title>Kent Software Development, Computer Repairs, Managed IT Services & Network Administration - Interelay Solutions</title>
          	
         <link rel='icon' href='images/interelay_small.ico' type='image/x-icon'>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
