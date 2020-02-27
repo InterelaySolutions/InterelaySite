@@ -8,8 +8,20 @@
 
 
 <url>
-  <loc>http://www.interelay.com/</loc>
-  <lastmod>2020-02-09T13:44:52+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.interelay.com/</loc>
+<lastmod>2020-02-27T00:17:45+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>
+https://www.interelay.com/academic-management-system
+</loc>
+<lastmod>2020-02-27T00:17:45+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.interelay.com/quality-reporting-site</loc>
+<lastmod>2020-02-27T00:17:45+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 </urlset>
