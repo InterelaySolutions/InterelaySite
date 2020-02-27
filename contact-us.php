@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Interelay Solutions - Contact Us</title>
+        <title>Contact Us - Interelay Solutions</title>
         <meta name="description" content="">
         <link rel='icon' href='images/interelay_small.ico' type='image/x-icon'/ >
         <meta name="viewport" content="width=device-width, initial-scale=1">

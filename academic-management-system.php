@@ -1,5 +1,5 @@
 <html><head>
-        <title>Interelay Solutions - Computer Repairs, Managed IT Services, Network Administration and Anti-Virus Services in Kent</title>
+        <title>Quality Reporting Site - Software Development - Interelay Solutions</title>
          	
         <link rel='icon' href='images/interelay_small.ico' type='image/x-icon' >
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,700" rel="stylesheet">
