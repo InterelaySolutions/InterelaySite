@@ -20,16 +20,17 @@
                     <ul class="dropdown">
                         <li><a class='button-hover' href="academic-management-system" style='padding: 13px;top:-21px;left:239px;position: relative;'>Academic Management System</a></li>
                         <!--<li><a class='button-hover' href="salsa-website" style='padding: 13px;top:-21px;left:332px;position: relative;'>Salsa Website</a></li>-->
-                        <li><a class='button-hover' href="quality-reporting-site" style='padding: 13px;top:-21px;left:239px;position: relative;'>Quality Reporting Site</a></li>
-                    </ul> 
+                        <!-- <li><a class='button-hover' href="quality-reporting-site" style='padding: 13px;top:-21px;left:239px;position: relative;'>Quality Reporting Site</a></li> -->
+                    </ul>
+                    <!-- 
                     <li><a class='button-hover' href="#" style='padding: 13px;top: -18px;position: relative;'>IT Services</a> 
                     <ul class="dropdown">
                       <li><a class='button-hover' href="computer-repair" style='padding: 13px;top:-21px;left:437px;position: relative;'>Computer Repair</a></li>
                         <li><a class='button-hover' href="managed-it-services" style='padding: 13px;top:-21px;left:437px;position: relative;'>Managed IT Services</a></li>
                         <li><a class='button-hover' href="network-vpn-management" style='padding: 13px;top:-21px;left:437px;position: relative;'>Network & VPN Management</a></li>
                         <li><a class='button-hover' href="it-consultancy" style='padding: 13px;top:-21px;left:437px;position: relative;'>Consultancy</a></li>
-                    </ul>
-                    </li>
+                    </ul> 
+                    </li>-->
                     </li>
                 </ul> 
         </div> <div id="loginpane" style="float:right; margin-top:-7;"> <!--<a href="login.php">Login and book an appointment</a> | ---><a class='button-hover' style='padding: 14px;top: -22px;position: relative;' href="/osTicket/">Support Helpdesk</a> 
